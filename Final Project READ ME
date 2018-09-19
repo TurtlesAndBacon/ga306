@@ -1,0 +1,10 @@
+For this script to work, you MUST set your project first.
+Simply opening Maya and running the script will not work. 
+
+Open Maya and go to File>Set Project and choose the 'Script_Test' folder, then run the script
+
+After the script is run, because of a bug in Maya I was unable to resolve, 
+you must highlight each image plane in the outliner and toggle the shape node's display from 'looking through camera..'
+to 'in all views' and back.
+The image planes should now be displayed in the appropriate views. 
+The you will have to switch the viewport of your choice to the Back othorgraphic camera to view the back image plane.
