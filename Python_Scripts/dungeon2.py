@@ -1,0 +1,10 @@
+print('What is your name, adventurer?')
+name = input()
+print('What class are you?')
+chr_class = input()
+print('You have 100 points total. How many points will you dedicate to magic? The remainder will be your attack points.')
+mgc = input()
+atk = abs(int(mgc)-100)
+print('So be it... ' + name + ', your chosen class is ' + chr_class
++ ' and you have ' + str(mgc) + ' magic points and ' + str(atk) + ' attack points.')
+print('Good luck...')

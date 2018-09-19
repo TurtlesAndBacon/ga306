@@ -1,0 +1,7 @@
+print('Greetings, adventurer. What is your name?')
+name = input()
+print(str(name) + ', what class are you?')
+chr_class = input()
+print('You have a total of 100 points to distribute between magic and attack. How many points will go to magic? The remainder will go to attack.')
+mgc = input()
+atk = abs(int(mgc) - 100)

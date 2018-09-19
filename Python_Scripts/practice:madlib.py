@@ -1,0 +1,7 @@
+print('Enter a noun!')
+noun1 = input()
+print('Enter an adjective!')
+adj1 = input()
+print('Enter another noun!')
+noun2 = input()
+print('Your', noun1, 'is a', adj1, noun2)
